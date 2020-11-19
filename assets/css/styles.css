@@ -19,3 +19,12 @@
    border-style: groove;
    border-color: red;
 }
+
+/* About Page Styling */
+
+#carouselDiv {
+  margin: 10px;
+}
+.carousel-dark {
+  text-shadow: 1px 1px black;
+}
