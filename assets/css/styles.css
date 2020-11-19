@@ -5,7 +5,9 @@
     color: red;
     text-shadow: 3px 3px black;
 }
-
+body {
+  background-color: lightblue;
+}
 .navbar {
     min-height: 100px;
   }
@@ -19,7 +21,7 @@
    border-style: groove;
    border-color: red;
 }
-
+/* -------------------------------------------------------------------------------- */
 /* About Page Styling */
 
 #carouselDiv {
@@ -27,4 +29,35 @@
 }
 .carousel-dark {
   text-shadow: 1px 1px black;
+}
+
+.outerCarousel {
+  margin: 30px;
+}
+
+/* Jumbotron Styling */
+.display-4 {
+  text-align: center;
+  left: 300px;
+}
+
+.jumbotronTxt {
+  margin: 30px 20px 5px 20px;
+}
+
+.jumboSpan {
+  text-align: left;
+}
+
+.jumbotron {
+  width: 100%;
+}
+.titles {
+  font-size: 35px;
+}
+.listItem {
+  font-size: 20px;
+}
+.card {
+  width: 25%;
 }
