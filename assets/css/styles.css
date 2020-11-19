@@ -1,0 +1,21 @@
+/* NavBar styling */
+#navMsg {
+    font-size: 30px;
+    font-family: 'Gill Sans', sans-serif;
+    color: red;
+    text-shadow: 3px 3px black;
+}
+
+.navbar {
+    min-height: 100px;
+  }
+
+.nav-link {
+      font-size: 2em;
+      margin: 30px;
+  }
+
+.active {
+   border-style: groove;
+   border-color: red;
+}
