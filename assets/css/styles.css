@@ -159,4 +159,22 @@ body {
   margin: 0 auto; /* Added */
   float: none; /* Added */
   margin-top: -40px;
+  width: 87%;
+}
+
+
+
+.sites {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px dotted black;
+}
+
+.marginTop {
+  margin-top: 20px;
+}
+
+.span {
+  font-size: 20px;
+  font-family: 'Arial Narrow Bold', sans-serif;
 }
