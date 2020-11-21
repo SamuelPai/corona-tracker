@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (footerTop < docHeight)
         $('#footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
 
-        
+
     // cases page
     let casesForm = document.getElementById("cases-form")
     casesForm.addEventListener("submit", function (event) {
@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }).then(response =>
             response.json()
         ).then(data => {
+            casesForm.reset()
             console.log(data)
             let country = data.Country_text
             let activeCases = data["Active Cases_text"]
@@ -31,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("active").textContent = activeCases
             document.getElementById("totalCases").textContent = totalCases
             document.getElementById("results").removeAttribute("id")
-            document.getElementById("zipCode").value = ""
+            
 
         })
             .catch(err => {
