@@ -24,6 +24,12 @@ body {
 /* -------------------------------------------------------------------------------- */
 /* About Page Styling */
 
+.carousel-img {
+  height: 450px;
+}
+.carousel {
+  border: none;
+}
 #carouselDiv {
   margin: 10px;
 }
@@ -60,4 +66,97 @@ body {
 }
 .card {
   width: 25%;
+}
+
+
+
+
+
+
+/* Cases Near You Page */
+
+#cases-form {
+  border-style: double;
+  width: 40%;
+  margin: 30px;
+}
+#cases-form2 {
+  margin-left: 30px;
+}
+.cases-form {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#casesImg {
+  max-width: 120%;
+  height: auto;
+  margin-top: 20px;
+  padding: 30px;
+}
+#results {
+  display: none;
+
+}
+.api-results {
+  margin: 30px;
+  padding: 10px;
+}
+.results {
+  margin-bottom: 15px;
+}
+#img-caption {
+  margin-left: 10px;
+}
+
+
+
+
+/* Prevention Page */
+.list-item-prevention > li {
+  list-style-type: square;
+}
+#prevention-card {
+  margin: 30px;
+  width: 80%;
+}
+#cardHeader {
+  text-align: center;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cardTitle {
+  text-align: center;
+  margin: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#tipsBtn {
+  margin-top: 40px;
+}
+#tipsDownload {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+/* #modalFooter {
+  margin-left: -20px;
+} */
+
+#video {
+  margin-top: 65px;
+}
+
+
+/* Testing Page Styling */
+#testingForm {
+  margin: 100px;
+  width: auto;
+}
+
+#testing-center-results {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-top: -40px;
 }

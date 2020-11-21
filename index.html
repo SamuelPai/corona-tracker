@@ -24,7 +24,7 @@
           <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./cases.html">Cases Near You</a>
+          <a class="nav-link" href="./cases.html">Cases</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./prevention.html">Prevention</a>
@@ -44,29 +44,29 @@
       <div id="carouselDiv">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li id="carousel" data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/images/Coronavirus.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-item active carousel">
+              <img src="./assets/images/Coronavirus.jpg" class="d-block w-100 carousel-img" alt="...">
               <div class="carousel-caption d-none d-md-block">
-                <h5>CORONAVIRUS vs SARS</h5>
-                <p>SARS-CoV-2 (the virus that causes COVID-19) binds 10 to 20 times more tightly to human cells than
+                <h5 class="carousel-dark">CORONAVIRUS vs SARS</h5>
+                <p class="carousel-dark">SARS-CoV-2 (the virus that causes COVID-19) binds 10 to 20 times more tightly to human cells than
                   SARS-CoV (the virus responsible for SARS).</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="./assets/images/take_temperature.png" class="d-block w-100" alt="...">
+            <div class="carousel-item carousel">
+              <img src="./assets/images/take_temperature.png" class="d-block w-100 carousel-img" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5 class="carousel-dark">People who don’t have symptoms can spread the virus</h5>
                 <p class="carousel-dark">The CDC estimates up to 40% of infected individuals do not experience symptoms.
                 </p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="./assets/images/wearing-mask.png" class="d-block w-100" alt="...">
+            <div class="carousel-item carousel">
+              <img src="./assets/images/wearing-mask.png" class="d-block w-100 carousel-img" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5 class="carousel-dark">Use of Masks to Control the Spread</h5>
                 <p class="carousel-dark">Seven <span><a
@@ -91,13 +91,13 @@
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container justify-content-center">
-      <h1 class="display-4"><a href="https://www.cdc.gov/coronavirus/2019-ncov/faq.html">Coronavirus 101</a></h1>
+      <h1 class="display-4"><a href="https://www.cdc.gov/coronavirus/2019-ncov/faq.html" target="_blank">Coronavirus 101</a></h1>
     </div>
     <p class="lead jumbotronTxt"><span class="titles">What is the coronavirus:</span> Coronaviruses are a type of virus that were discovered in the mid 1960s. They can be categorized into 4 main groups - Alpha, Beta, Gamma, and Delta. The one that has caused the current widespread pandemic is officially called the SARS-CoV-2 or COVID-19. It falls under Betacoronavirus genus but has not previously been identified in humans thus obtaining the nickname of the novel coronavirus.</p>
     <p class="lead jumbotronTxt"><span class="titles">Where did COVID-19 come from: </span> It was first identified in Wuhan, China in December of 2019. Although the exact source of the novel coronavirus is not entirely identified, it is suspected that the it was trasmitted to humans from the consumption of bats.</p>
     <p class="lead jumbotronTxt"><span class="titles">How is it spread: </span> The most common way this virus is spread is between two people who are in close proximity (CDC estimates about 6 feet or less). Similar to the spread of other viruses, COVID-19 is spread through respiratory droplets that are projected into the air or onto surfaces where the infected person sneezes, coughs, sings, talks, or even breathes. The virus then spreads when these droplets enter the body of another individual typically through the nose or mouth.</p>
-    <p class="lead jumbotronTxt"><span class="titles">Who is at risk: </span> Although some people who contract the virus are asympotmatic, people who are at high risk of developing life threatening symptoms include older adults (according to CDC, 8 out of 10 COVID-19 deaths have been in adults 65 years and older), pregnant people, and those with <a href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fneed-extra-precautions%2Fgroups-at-higher-risk.html">underlying medical conditions</a>. </p>
-    <p class="lead jumbotronTxt titles">What are the symptoms:</p>
+    <p class="lead jumbotronTxt"><span class="titles">Who is at risk: </span> Although some people who contract the virus are asympotmatic, people who are at high risk of developing life threatening symptoms include older adults (according to CDC, 8 out of 10 COVID-19 deaths have been in adults 65 years and older), pregnant people, and those with <a href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fneed-extra-precautions%2Fgroups-at-higher-risk.html" target="_blank">underlying medical conditions</a>. </p>
+    <p class="lead jumbotronTxt titles">What are the <a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html" target="_blank">symptoms</a>:</p>
     <div class="card">
       <div class="card-body">
         <ul>
@@ -115,7 +115,9 @@
 
 
 
-
+  <div class="card-footer text-muted">
+    <a>Sources</a>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
